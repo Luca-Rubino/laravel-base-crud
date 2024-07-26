@@ -15,4 +15,17 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
+
+Route::get('/Chi_sono', function () {
+    return view('page.chiSono');
+})->name('chiSono');
+
+Route::get('/Varie', function () {
+    return view('page.varie');
+})->name('varie');
+
+Route::get('/Contatti', function () {
+    return view('page.contatti');
+})->name('contatti');
+
