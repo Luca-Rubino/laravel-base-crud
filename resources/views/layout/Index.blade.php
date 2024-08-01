@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    @include('component.nav')
-    @include('component.main')
-    @include('component.footer')
+    @include('layout.component.nav')
+    @include('layout.component.main')
+    @include('layout.component.footer')
 
     {{-- @include('resources.js.myScript') --}}
 </body>

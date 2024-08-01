@@ -14,18 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('layout.index');
 })->name('index');
 
 Route::get('/Chi_sono', function () {
-    return view('page.chiSono');
+    return view('layout.page.chiSono');
 })->name('chiSono');
 
 Route::get('/Varie', function () {
-    return view('page.varie');
+    return view('layout.page.varie');
 })->name('varie');
 
 Route::get('/Contatti', function () {
-    return view('page.contatti');
+    return view('layout.page.contatti');
 })->name('contatti');
 
